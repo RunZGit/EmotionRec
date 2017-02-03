@@ -93,6 +93,7 @@ After that 2000 tests, we are almost done
 ```bash
 cd {path to caffe}/caffe/python
 for req in $(cat requirements.txt); do pip install $req; done
+pip install lmdb
 cd ~
 vi .bashrc
 #add this line

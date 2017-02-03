@@ -85,4 +85,8 @@ make all
 make install
 make runtest
 ```
+If you have trouble with GLIBCXX_3.4.2* not found, enter the following command
+```bash
+conda install libgcc
+```
 

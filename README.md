@@ -1,9 +1,9 @@
 # Cuda, Caffe and OpenCV Setup Tutorial
 A lot people are having trouble with intalling all this software, and there is not a complete tutorial online that is simple enough to understand. So, if you wanna skip through the reading and just wants to get them to work, follow this tutorial, and hopfully other people could have less of pain installing those tools. Happy data crunching.
 # Install Cuda
-In case you love reading, I have linked the two original documents for cuda8.0, for your enlighments. Warning, those links are not kept up to date, google the new ones if they are expired. If you still cannot find it, I reconmend you close your computer, and just give up. 
-[NVIDIA CUDA INSTALLATION GUIDE FOR LINUX](http://docs.nvidia.com/cuda/cuda-installation-guide-linux/#axzz4Xe5BN9U9)
-[CUDA QUICK START GUIDE](http://docs.nvidia.com/cuda/cuda-quick-start-guide/#axzz4Xe5BN9U9)
+In case you love reading, I have linked the two original documents for cuda8.0, for your enlighments. Warning, those links are not kept up to date, google the new ones if they are expired. If you still cannot find it, I reconmend you close your computer, and just give up.    
+[NVIDIA CUDA INSTALLATION GUIDE FOR LINUX](http://docs.nvidia.com/cuda/cuda-installation-guide-linux/#axzz4Xe5BN9U9)   
+[CUDA QUICK START GUIDE](http://docs.nvidia.com/cuda/cuda-quick-start-guide/#axzz4Xe5BN9U9)   
 ## Requirements 
 Ubuntu 16.04 or 14.04
 Cuda compatible graphics card. To check your graphics card compatibility, [click here](https://developer.nvidia.com/cuda-gpus)

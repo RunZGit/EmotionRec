@@ -64,7 +64,8 @@ sudo apt-get install -y libprotobuf-dev libleveldb-dev libsnappy-dev protobuf-co
 sudo apt-get install -y libatlas-base-dev 
 sudo apt-get install -y --no-install-recommends libboost-all-dev
 sudo apt-get install -y libgflags-dev libgoogle-glog-dev liblmdb-dev
-
+#It is ok to run conda on this though
+conda install -c menpo opencv3
 # Also, you need cmake
 sudo apt-get install cmake
 ```

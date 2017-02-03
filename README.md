@@ -57,7 +57,7 @@ If you think you can install those calling conda install, then
 Don't you do it, you will regret for the rest of your life, like me sitting in the CS lab 2:50 in the morning, took me 8 hours to figure this out!!! So don't do it!!!!
 ```bash
 #I called it caffe, you can call it whatever you want
-conda create -n caffe python=2
+conda create -n caffe python=2 anaconda
 source activate caffe
 sudo apt-get install -y build-essential cmake git pkg-config
 sudo apt-get install -y libprotobuf-dev libleveldb-dev libsnappy-dev protobuf-compiler

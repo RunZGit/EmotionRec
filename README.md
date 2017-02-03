@@ -2,14 +2,14 @@
 A lot people are having trouble with intalling all this software, and there is not a complete tutorial online that is simple enough to understand. So, if you wanna skip through the reading and just wants to get them to work, follow this tutorial, and hopfully other people could have less of pain installing those tools. Happy data crunching.
 # Install Cuda
 In case you love reading, I have linked the two original documents for cuda8.0, for your enlighments. Warning, those links are not kept up to date, google the new ones if they are expired. If you still cannot find it, I reconmend you close your computer, and just give up. 
-[NVIDIA CUDA INSTALLATION GUIDE FOR LINUX](http://developer.download.nvidia.com/compute/cuda/8.0/secure/prod/docs/sidebar/CUDA_Installation_Guide_Linux.pdf?autho=1486081900_0d6e525ee91f25dde4aa11da0915d586&file=CUDA_Installation_Guide_Linux.pdf)
-[CUDA QUICK START GUIDE](http://developer.download.nvidia.com/compute/cuda/8.0/secure/prod/docs/sidebar/CUDA_Quick_Start_Guide.pdf?autho=1486081901_177ba14ed3eb0ef5c101a99e4cb02ad6&file=CUDA_Quick_Start_Guide.pdf)
+[NVIDIA CUDA INSTALLATION GUIDE FOR LINUX](http://docs.nvidia.com/cuda/cuda-installation-guide-linux/#axzz4Xe5BN9U9)
+[CUDA QUICK START GUIDE](http://docs.nvidia.com/cuda/cuda-quick-start-guide/#axzz4Xe5BN9U9)
 ## Requirements 
 Ubuntu 16.04 or 14.04
 Cuda compatible graphics card. To check your graphics card compatibility, [click here](https://developer.nvidia.com/cuda-gpus)
 This tutorial mainly focus on ubuntu 16.04 version 
 ## Installation Steps
-First, download the newest version of CUDA [here](https://developer.nvidia.com/cuda-downloads). This tutorial is writen when cuda 8.0 is the newest version availble.
+First, download the newest version of CUDA [here](https://developer.nvidia.com/cuda-downloads). This tutorial is writen when cuda 8.0 is the newest version availble. I downloaded the linux x86_64 ubuntu 16.04 deb local file.
 ```bash
 sudo dpkg -i cuda-repo-ubuntu1604-8-0-local_8.0.44-1_amd64.deb
 sudo apt-get update

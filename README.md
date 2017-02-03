@@ -65,8 +65,6 @@ sudo apt-get install -y libatlas-base-dev
 sudo apt-get install -y --no-install-recommends libboost-all-dev
 sudo apt-get install -y libgflags-dev libgoogle-glog-dev liblmdb-dev
 
-#To check if they are installed
-conda list
 # Also, you need cmake
 sudo apt-get install cmake
 ```

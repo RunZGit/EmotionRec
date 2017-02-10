@@ -96,6 +96,6 @@ pip install lmdb
 cd ~
 vi .bashrc
 #add this line
-PYTHONPATH={path to caffe}/caffe/python:$PYTHONPATH
+export PYTHONPATH={path to caffe}/caffe/python${PYTHONPATH:+:${PYTHONPATH}}
 ```
 
